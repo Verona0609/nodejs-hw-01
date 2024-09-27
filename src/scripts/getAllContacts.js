@@ -1,9 +1,8 @@
-import { PATH_DB } from '../constants/contacts.js';
 import { readContacts } from '../utils/readContacts.js';
 
 export const getAllContacts = async () => {
   try {
-    const contacts = await readContacts(PATH_DB);
+    const contacts = await readContacts();
     return contacts;
   } catch (error) {
     console.error('An error occurred while getting  contacts:😢', error);
@@ -11,5 +10,6 @@ export const getAllContacts = async () => {
   }
 };
 
-getAllContacts([]);
-console.log('Successful retrieval of all contacts!😉');
+getAllContacts().then((contacts) => {
+  console.log('Successful retrieval of all contacts!😉', contacts);
+});
