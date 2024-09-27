@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "read": "node src/utils/readContacts.js",
     "get-all": "node src/scripts/getAllContacts",
     "generate": "node src/scripts/generateContacts.js",
     "add-one": "node src/scripts/addOneContact.js",
@@ -17,6 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.2.0",
+    "@faker-js/faker": "^9.0.2",
     "eslint": "^9.2.0",
     "globals": "^15.1.0"
   }

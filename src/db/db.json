@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "5dfb4248-6f51-483c-8a54-b421d78aeb45",
+    "name": "Dianne Mohr",
+    "phone": "588.667.2216 x89823",
+    "email": "Harold_Toy49@yahoo.com",
+    "job": "Dynamic Markets Specialist"
+  },
+  {
+    "id": "947a78a0-016d-4f5c-8d73-895ecd5dbadc",
+    "name": "Laurence Goodwin",
+    "phone": "(263) 941-0533 x16270",
+    "email": "Tevin.Schiller@hotmail.com",
+    "job": "District Assurance Facilitator"
+  },
+  {
+    "id": "74f59fb0-dc5b-4f3f-9dd5-c9548768aec8",
+    "name": "Doyle Koch",
+    "phone": "863-943-0362 x325",
+    "email": "Nels.MacGyver@hotmail.com",
+    "job": "Human Intranet Agent"
+  },
+  {
+    "id": "e83ca7ea-41f3-4e61-a2aa-9fddc62aee2d",
+    "name": "Dexter Bartoletti",
+    "phone": "552-829-8660 x758",
+    "email": "Araceli76@gmail.com",
+    "job": "Central Optimization Representative"
+  }
+]
